@@ -1,0 +1,8 @@
+[user]
+	name = tomokinex
+	mail = kurobist@gmail.com
+	email = kurobist@gmail.com
+
+[alias]
+    glog = log --pretty='format:%C(yellow)%h %C(green)%cd %C(reset)%s %C(red)%d %C(cyan)[%an]' --date=iso --all --graph
+    plog = log --pretty='format:%C(yellow)%h %C(green)%cd %C(reset)%s %C(red)%d %C(cyan)[%an]' --date=iso

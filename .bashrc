@@ -12,3 +12,4 @@ export LS_COLORS='di=01;32'
 
 alias redmine='ssh -L 8080:redmine.mtl.t.u-tokyo.ac.jp:80 tomokin@fw.mtl.t.u-tokyo.ac.jp'
 alias remote='ssh -L 13389:10.10.235.20:3389 tomokin@mtl.t.u-tokyo.ac.jp'
+alias wake='ssh tomokin@fw.mtl.t.u-tokyo.ac.jp "perl -w wakeonlan f8:32:e4:9f:19:e8"'
