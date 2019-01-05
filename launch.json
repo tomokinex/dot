@@ -1,0 +1,36 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "debug for a.out",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "/mnt/c/Users/tomokin/Documents/code/cpp/a.out",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "/",
+            "environment": [],
+            "externalConsole": true,
+            "pipeTransport": {
+                "debuggerPath": "/usr/bin/gdb",
+                "pipeProgram": "C:\\Windows\\system32\\bash.exe",
+                "pipeArgs": ["-c"],
+                "pipeCwd": "/"
+            },
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                
+            ],
+            "sourceFileMap": {
+                "/mnt/c": "C:\\"
+            }
+        }
+    ]
+}
